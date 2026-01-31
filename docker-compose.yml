@@ -1,0 +1,8 @@
+services:
+  cctv-motion:
+    build: .
+    container_name: cctv-motion
+    restart: always
+    env_file:
+      - .env
+    network_mode: host 
