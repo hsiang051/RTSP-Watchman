@@ -18,7 +18,7 @@ def main():
     last_motion_time = 0
     frame_count = 0
 
-    print(f"RTSP-Watchman 啟動，監控串流: {RTSP_URL}")
+    print(f"RTSP-Watchman 啟動，開始取樣...")
 
     while True:
         for _ in range(5): cap.grab()
